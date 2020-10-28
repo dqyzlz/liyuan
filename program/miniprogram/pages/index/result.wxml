@@ -1,0 +1,16 @@
+<view class="page">
+  <image class="bgindex" mode="widthFix" src="../../images/bg3.jpg"></image>
+  <view class="titsh">填写信息-立即获取您的专属方案</view>
+  <view class="conW">
+    <view class="conpp">您的姓名</view>
+    <input type="text" class="iptVl" placeholder="请输入您的姓名" bindinput="iptName"></input>
+    <view class="conpp">您的联系电话</view>
+    <input type="number" class="iptVl" placeholder="请输入您的联系电话" maxlength="11" bindinput="iptPhone"></input>
+  </view>
+
+  <view class="btnWrap">
+    <view class="btnB btnN" bindtap="save">提 交</view>
+  </view>
+</view>
+
+

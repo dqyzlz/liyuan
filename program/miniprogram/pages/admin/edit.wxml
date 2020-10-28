@@ -1,0 +1,21 @@
+
+<view wx:if="{{titleImg==''}}" class="detail1" bindtap="upload" data-num="1"> + </view>
+<view class="detail1 clearfix" wx:if="{{titleImg!=''}}">
+  <view class="titBtns" bindtap="updelbtnTit">删 除</view>
+  <image src="{{titleImg}}"></image>
+</view>
+
+<input type="text" placeholder="请输入标题" value="{{title}}" class="textsmall" bindinput="bindInputTitle"></input>
+<textarea class="textbig" placeholder="请输入内容" value="{{content}}" maxlength="500" bindinput="bindInputContent"></textarea>
+
+<view class="clearfix" style="margin-left:20rpx;">
+  <view style="font-size:28rpx;margin:20rpx 0 0 36rpx;">上传图片集：</view>
+  <view class="upimg" wx:for="{{uploaderList}}" wx:key="index">
+    <view class="updelbtn" bindtap='clearImg' data-index="{{index}}">删除</view>
+    <image bindtap='showImg' data-index="{{index}}" src='{{item}}' class="upInimg"></image>
+  </view>
+  <image src="/images/addimg.png" class="upimg" bindtap="upload" data-num="2" wx:if="{{showUpload}}"></image>
+</view>
+
+<view class="pubBtn" bindtap="chooseAdd">修 改</view>
+<view class="pubBtn" bindtap="chooseDel">删 除</view>

@@ -1,0 +1,11 @@
+<view class="pubBtn2" bindtap="goAdd">添 加</view>
+<view style="height:100rpx;"></view>
+<view class="listWrap" wx:for="{{list}}" wx:key="index">
+  <view bindtap="edit" class="minwrap" data-msg="{{item}}">
+    <image class="listp2" src="{{item.titleImg}}"></image>
+    <view class="listp1">{{item.title}}</view>
+    <view class="listp4">{{item.time}}</view>
+  </view>
+  <view class="listp3" wx:if="{{item.isShow=='1'}}" bindtap="changeState" data-num="{{item.isShow}}" data-id="{{item._id}}">导航启用中</view>
+  <view class="listp3" wx:if="{{item.isShow=='2'}}" bindtap="changeState" data-num="{{item.isShow}}" data-id="{{item._id}}">导航停用中</view>
+</view>

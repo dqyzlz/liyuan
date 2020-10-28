@@ -1,0 +1,2 @@
+<view class="bgview" bindtap="goShouye">首页</view>
+<view class="bgview" bindtap="goZixun">资讯</view>

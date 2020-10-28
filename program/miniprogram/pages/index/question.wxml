@@ -1,0 +1,29 @@
+<view class="page">
+  <image class="bgindex" mode="widthFix" src="../../images/bg3.jpg"></image>
+  <view class="headW">
+    <view class="headLef">预估贷款额度</view>
+    <view class="headR">{{money}}万元</view>
+  </view>
+
+  <view class="conW">
+    <view class="conTit">{{listQuestion[qIndex].question}}</view>
+    <view class="conMid" wx:for="{{listQuestion[qIndex].answer}}" wx:key="_id" wx:for-index="key" bindtap="choose" data-msg="{{item}}" data-index = "{{key}}">
+      <view class="itemLef {{item.checked? 'itemLefact':''}}"></view>
+      <view class="itemRig">{{item.name}} {{item.content}}</view>
+    </view>
+    <view class="iptcls" wx:if="{{iptShow}}">
+      <input class="iptclst" type="number" maxlength="5" bindinput="bindIpt" placeholder="请输入{{iptTxt}}" value="{{iptVal}}"/>
+      <view class="uotps" wx:if="{{iptTxt=='按揭房月供金额'||iptTxt=='按揭车月供金额'}}">元</view>
+      <view class="uotps" wx:if="{{iptTxt=='房产价值'||iptTxt=='车产价值'}}">万元</view>
+    </view>
+  </view>
+
+  <view class="btnWrap">
+    <view class="btnB btnN" bindtap="next" wx:if="{{qIndex==0}}">下一题</view>
+    <view class="btnB" bindtap="before" wx:if="{{qIndex != 0}}">上一题</view>
+    <view class="btnB" bindtap="next" wx:if="{{qIndex != listLen && qIndex !=0}}">下一题</view>
+    <view class="btnB" bindtap="goResult" wx:if="{{qIndex == listLen}}">查看结果</view>
+  </view>
+</view>
+
+

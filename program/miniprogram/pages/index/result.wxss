@@ -1,0 +1,60 @@
+.page{
+  width:100vw;
+  height:100vh;
+  background:#fff;
+  overflow: hidden;
+  position: relative;
+}
+.bgindex{
+  width:750rpx;
+  height:auto;
+}
+.titsh{
+  position: absolute;
+  text-align: center;
+  width:100vw;
+  top:200rpx;
+  color:#fff;
+}
+.conW{
+  width:460rpx;
+  padding:40rpx;
+  height:380rpx;
+  background:#fff;
+  border-radius: 24rpx;
+  position: absolute;
+  top:320rpx;
+  left:106rpx;
+}
+.iptVl{
+  background:rgb(236, 235, 235);
+  padding:24rpx 10rpx;
+}
+.conpp{
+  font-size: 26rpx;
+  padding:20rpx 0;
+}
+.btnWrap{
+  width:750rpx;
+  height:120rpx;
+  position: absolute;
+  bottom:260rpx;
+}
+.btnB{
+  width:310rpx;
+  height:100rpx;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36rpx;
+  color:#fff;
+  border:2rpx solid #4086ff;
+  line-height:100rpx;
+  background:#5ba1ff;
+  border-radius:60rpx;
+  float:left;
+  margin-left:40rpx;
+}
+.btnN{
+  width:600rpx;
+  margin-left:70rpx;
+}

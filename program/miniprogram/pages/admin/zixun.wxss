@@ -1,0 +1,35 @@
+.listWrap{
+  width:100vw;
+  height:100rpx;
+  padding:10rpx 20rpx;
+  border-bottom:1px solid #ccc;
+  font-size: 22rpx;
+  line-height:100rpx;
+  overflow: hidden;
+}
+.listp1{
+  float:left;
+  width:200rpx;
+  margin:0 10rpx;
+}
+.listp2{
+  float:left;
+  width:120rpx;
+  height:100rpx;
+  background:#999;
+}
+.listp3{
+  float:left;
+  width:120rpx;
+  margin:0 10rpx;
+  text-align:center;
+}
+.listp4{
+  width:200rpx;
+  float:left;
+}
+.minwrap{
+  float:left;
+  min-width:60vw;
+  height:100rpx;
+}

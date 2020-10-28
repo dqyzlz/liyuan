@@ -1,0 +1,20 @@
+{
+  "pages": [
+
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "贷款计算器",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+    "desc": "查看附近站点"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+
+}

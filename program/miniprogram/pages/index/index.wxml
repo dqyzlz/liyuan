@@ -1,0 +1,7 @@
+<view class="page">
+  <image class="bgindex" mode="widthFix" src="../../images/bg1.jpg"></image>
+
+  <view class="btnP" bindtap="goCe">测 一 测</view>
+</view>
+
+

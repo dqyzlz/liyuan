@@ -1,0 +1,112 @@
+.page{
+  width:100vw;
+  height:100vh;
+  background:#fff;
+  overflow: hidden;
+  position: relative;
+}
+.bgindex{
+  width:750rpx;
+  height:auto;
+}
+.headW{
+  width:660rpx;
+  height:150rpx;
+  background:#fff;
+  border-radius: 24rpx;
+  position: absolute;
+  top:50rpx;
+  left:42rpx;
+}
+.headLef{
+  margin:5rpx 10rpx;
+}
+.headR{
+  height:150rpx;
+  width:500rpx;
+  position: absolute;
+  line-height: 150rpx;
+  font-size: 60rpx;
+  right:30rpx;
+  top:0;
+  text-align:right;
+}
+.conW{
+  width:540rpx;
+  height:600rpx;
+  background:#fff;
+  border-radius: 24rpx;
+  position: absolute;
+  top:320rpx;
+  left:110rpx;
+}
+.conTit{
+  width:540rpx;
+  height:140rpx;
+  line-height: 140rpx;
+  font-size: 40rpx;
+  text-align: center;
+  border-bottom:1rpx dashed #000;
+}
+.conMid{
+  width:540rpx;
+  height:80rpx;
+  line-height:80rpx;
+}
+.itemLef{
+  width:40rpx;
+  height:40rpx;
+  margin:20rpx 10rpx 0 20rpx;
+  border:1rpx solid #000;
+  border-radius:40rpx;
+  float: left;
+}
+.itemLefact{
+  border:1rpx solid #4086ff;
+  background:#4086ff;
+}
+.itemRig{
+  width:400rpx;
+  float: left;
+  overflow: hidden;
+}
+.iptcls{
+  background:rgb(236, 235, 235);
+  width:480rpx;
+  line-height: 110rpx;
+  height:110rpx;
+  margin-left:30rpx;
+  position: relative;
+}
+.iptclst{
+  padding:30rpx 20rpx;
+}
+.uotps{
+  position: absolute;
+  right:20rpx;
+  top:0;
+}
+.btnWrap{
+  width:750rpx;
+  height:120rpx;
+  position: absolute;
+  bottom:110rpx;
+}
+.btnB{
+  width:310rpx;
+  height:100rpx;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36rpx;
+  color:#fff;
+  border:2rpx solid #4086ff;
+  line-height:100rpx;
+  background:#5ba1ff;
+  border-radius:60rpx;
+  float:left;
+  margin-left:40rpx;
+}
+.btnN{
+  width:600rpx;
+  margin-left:70rpx;
+}
